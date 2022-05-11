@@ -38,6 +38,12 @@ h2 {
   line-height: 55px;
 }
 
+h3 {
+  font-size: 16px;
+  letter-spacing: .08rem;
+  margin: 2rem 0 .5rem;
+}
+
 a {
   font-weight: bold;
   font-size: 10px;
@@ -278,18 +284,73 @@ article {
 
 /**** FEATURES SECTION ****/
 .bottom {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   
 }
 
 .features {
-  border: 2px solid greenyellow;
+  /* border: 2px solid greenyellow; */
   text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0;
+}
+
+.features h2 {
+  margin-bottom: 1rem;
 }
 
 .features .desc {
-  border: 1px solid palevioletred;
-  width: 620px;
+  /* border: 1px solid palevioletred; */
+  margin: 0 auto;
+  max-width: 620px;
 }
 
 /* cards */
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3rem 0;
+}
+
+.cards article {
+  height: 275px;
+  width: 278px;
+  flex-direction: column;
+}
+
+.app-link {
+  /* border: 1px solid slategray; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-link img:first-child {
+  position: relative;
+  top: -1px;
+  margin-right: 4rem;
+}
+.bkg {
+  /* border: 1px solid dodgerblue; */
+}
+
+/* FOOTER */
+footer {
+  padding:.5rem;
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  font-size: 10px;
+}
+
+footer a {
+  font-weight: normal;
+  color: var(--primary);
+}
+
+footer a:hover {
+  color: var(--secondary);
+}
+
