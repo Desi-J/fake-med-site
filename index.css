@@ -210,7 +210,7 @@ main section {
 
 /***** INFO SECTION *****/
 section.wrapper {
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .info {
@@ -219,12 +219,12 @@ section.wrapper {
 }
 
 .numbers {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   margin: 1rem auto;
 }
 
 .squares {
-  border: 1px solid pink;
+  /* border: 1px solid pink; */
   width: 80%;
   margin: 0 auto;
   padding: 3rem 0;
@@ -270,7 +270,7 @@ article {
 }
 
 .last {
-  border: 1px solid purple;
+  /* border: 1px solid purple; */
   padding: 0 2rem 0 0;
   /* padding-right: 2rem; */
 }
@@ -279,4 +279,17 @@ article {
 /**** FEATURES SECTION ****/
 .bottom {
   border: 1px solid black;
+  
 }
+
+.features {
+  border: 2px solid greenyellow;
+  text-align: center;
+}
+
+.features .desc {
+  border: 1px solid palevioletred;
+  width: 620px;
+}
+
+/* cards */
